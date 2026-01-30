@@ -6,6 +6,7 @@ public class Livro {
     String descricao;
     String isbn;
     double valor;
+    Autor autor;
     void mostrarDetalhes() {
         String mensagem = "Mostrando detalhes do livro";
         System.out.println (mensagem);
