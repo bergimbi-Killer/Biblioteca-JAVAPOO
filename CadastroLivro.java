@@ -16,5 +16,9 @@ public class CadastroLivro {
         novolivro.valor = 10000;
         novolivro.isbn = "978-85-83740-46-6"; 
         livro.mostrarDetalhes();
+        Autor autor = new Autor();
+        autor.nome = " Bernardo Gimbi";
+        autor.email = "bergimbi23@gmail.com";
+        autor.cpf = "123.456.789.10";
     }
 }
