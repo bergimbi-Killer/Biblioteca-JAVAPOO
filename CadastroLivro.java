@@ -10,15 +10,25 @@ public class CadastroLivro {
         livro.valor = 8.500;
         livro.isbn = "978-85-66250-46-6";
         livro.mostrarDetalhes();
+        
         Livro novolivro = new Livro ();
         novolivro.nome = "Rede De Computadores";
         novolivro.descricao = "Uma Introducao ao Conceito de Rede e Internet";
         novolivro.valor = 10000;
         novolivro.isbn = "978-85-83740-46-6"; 
         livro.mostrarDetalhes();
+        
         Autor autor = new Autor();
         autor.nome = " Bernardo Gimbi";
         autor.email = "bergimbi23@gmail.com";
         autor.cpf = "123.456.789.10";
+        
+        livro.autor = autor;
+        
+        Autor novoautor = new Autor();
+        novoautor.nome = "Mário Queiros";
+        novoautor.email = "marioqueiro@gmail.com";
+        novoautor.cpf = "456-123-789-01";
+        novolivro.autor = novoautor;
     }
 }
